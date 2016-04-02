@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		7B2A801D1B1EDB23006D675E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A801C1B1EDB23006D675E /* AppDelegate.swift */; };
-		7B2A801F1B1EDB23006D675E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A801E1B1EDB23006D675E /* ViewController.swift */; };
 		7B2A80221B1EDB23006D675E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2A80201B1EDB23006D675E /* Main.storyboard */; };
 		7B2A80241B1EDB23006D675E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2A80231B1EDB23006D675E /* Images.xcassets */; };
 		7B2A80271B1EDB23006D675E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B2A80251B1EDB23006D675E /* LaunchScreen.xib */; };
 		7B2A80331B1EDB24006D675E /* PamelaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A80321B1EDB24006D675E /* PamelaTests.swift */; };
+		7B2A803F1B1EE3B6006D675E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2A803E1B1EE3B6006D675E /* CategoryViewController.swift */; };
+		7B5D64591B60909A001A552A /* ProjectInfomationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5D64581B60909A001A552A /* ProjectInfomationViewController.swift */; };
+		7B65F0911B268795000FBA6B /* PamelaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B65F0901B268795000FBA6B /* PamelaViewController.swift */; };
+		7B8C48C81B6611FC004D7C42 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C48C71B6611FC004D7C42 /* LoginViewController.swift */; };
+		7BCEF0631B2521600013DA39 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEF0621B2521600013DA39 /* DiaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +33,17 @@
 		7B2A80171B1EDB23006D675E /* Pamela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pamela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2A801B1B1EDB23006D675E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2A801C1B1EDB23006D675E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B2A801E1B1EDB23006D675E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7B2A80211B1EDB23006D675E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B2A80231B1EDB23006D675E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7B2A80261B1EDB23006D675E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7B2A802C1B1EDB23006D675E /* PamelaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PamelaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B2A80311B1EDB24006D675E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B2A80321B1EDB24006D675E /* PamelaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PamelaTests.swift; sourceTree = "<group>"; };
+		7B2A803E1B1EE3B6006D675E /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		7B5D64581B60909A001A552A /* ProjectInfomationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectInfomationViewController.swift; sourceTree = "<group>"; };
+		7B65F0901B268795000FBA6B /* PamelaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PamelaViewController.swift; sourceTree = "<group>"; };
+		7B8C48C71B6611FC004D7C42 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		7BCEF0621B2521600013DA39 /* DiaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +86,11 @@
 			isa = PBXGroup;
 			children = (
 				7B2A801C1B1EDB23006D675E /* AppDelegate.swift */,
-				7B2A801E1B1EDB23006D675E /* ViewController.swift */,
+				7B8C48C71B6611FC004D7C42 /* LoginViewController.swift */,
+				7B2A803E1B1EE3B6006D675E /* CategoryViewController.swift */,
+				7BCEF0621B2521600013DA39 /* DiaryViewController.swift */,
+				7B5D64581B60909A001A552A /* ProjectInfomationViewController.swift */,
+				7B65F0901B268795000FBA6B /* PamelaViewController.swift */,
 				7B2A80201B1EDB23006D675E /* Main.storyboard */,
 				7B2A80231B1EDB23006D675E /* Images.xcassets */,
 				7B2A80251B1EDB23006D675E /* LaunchScreen.xib */,
@@ -156,6 +168,8 @@
 		7B2A800F1B1EDB23006D675E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Bond Wong";
 				TargetAttributes = {
@@ -212,7 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B2A801F1B1EDB23006D675E /* ViewController.swift in Sources */,
+				7B8C48C81B6611FC004D7C42 /* LoginViewController.swift in Sources */,
+				7B65F0911B268795000FBA6B /* PamelaViewController.swift in Sources */,
+				7B2A803F1B1EE3B6006D675E /* CategoryViewController.swift in Sources */,
+				7B5D64591B60909A001A552A /* ProjectInfomationViewController.swift in Sources */,
+				7BCEF0631B2521600013DA39 /* DiaryViewController.swift in Sources */,
 				7B2A801D1B1EDB23006D675E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +361,7 @@
 				INFOPLIST_FILE = Pamela/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,6 +372,7 @@
 				INFOPLIST_FILE = Pamela/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -409,6 +429,7 @@
 				7B2A80381B1EDB24006D675E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7B2A80391B1EDB24006D675E /* Build configuration list for PBXNativeTarget "PamelaTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +438,7 @@
 				7B2A803B1B1EDB24006D675E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
